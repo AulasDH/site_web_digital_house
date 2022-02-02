@@ -1,5 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 
 body {
     font-family: "Roboto", sans-serif;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ec183f;
+}
+
+header small {
+    font-weight: 700;
+}
+
+img#background {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    border-top: solid #9f9b9b 2px;
+}
+
+footer .redes-sociais {
+    list-style: none;
+    text-align: center;
+}
+
+footer .redes-sociais li {
+    display: inline-block;
+}
+
+footer .redes-sociais img {
+    width: 40px;
+    margin: 10px;
 }
